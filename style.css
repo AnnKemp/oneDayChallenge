@@ -7,8 +7,6 @@
       display:none;
   }
 
-  
-
   button{
       width: 100px;
       height: 28px;
@@ -21,8 +19,6 @@
       letter-spacing: 1px;
       line-height: 10px;
   }
-
-  
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px; 

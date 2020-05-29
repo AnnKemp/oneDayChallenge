@@ -1,9 +1,10 @@
 function startCounter(){
-
-    x=x+1;
-    document.getElementById("counter").innerHTML=x;
-}
-
+        let timing=setTimeout(Func, 500);
+    }
+    function Func() {
+        x=x+1;
+        document.getElementById("counter").innerHTML=x;
+    }
 /* --------------------------------the tabsection --------------------------------------------------- */
 document.getElementById("knopEen").addEventListener("click", buttonOne);
 document.getElementById("knopTwee").addEventListener("click", buttonTwo);

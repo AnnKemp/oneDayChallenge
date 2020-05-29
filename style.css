@@ -50,3 +50,17 @@ input[type=text], select, textarea {
     background-color: white;
     padding: 20px;
   }
+
+  .active{
+    color:white;
+    background-color: cadetblue;
+  }
+
+  .inactive{
+    color: #666;
+    background-color: lightgray;
+  }
+
+  tab{display: none;}
+
+  secton#One{display: block;}

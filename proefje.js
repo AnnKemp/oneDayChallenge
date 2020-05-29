@@ -47,15 +47,16 @@ document.getElementById("submit").addEventListener("click", function(e) {
 
     let inputs = document.getElementsByTagName("input");
     for (let i = 0; i < inputs.length; i++) {
+        let a=inputs[i];
+        console.log(a.innerHTML);
 
-        console.log(inputs[i].innerHTML);
-
-        if (inputs.value = "") {
+        /*if (inputs.value = "") {
             alert("you have to put something in the input field of the form before submitting!")
             // break;
         } else {
-
-        }
+            let form=document.getElementById("contact");
+            form.submit();
+        }*/
     }
 });
 

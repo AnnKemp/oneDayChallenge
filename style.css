@@ -7,6 +7,7 @@
     display:none;
   }
 
+  
 
   button{
       width: 100px;
@@ -67,3 +68,18 @@ input[type=text], select, textarea {
   section{display: none;}
 
   section#One{display: block;}
+
+
+  #previous{
+    position: absolute; left: 10px; 
+    top: 200px;
+  }
+
+  #next{
+    position: absolute; right: 10px; 
+    top: 200px;
+  }
+
+  header{
+    z-index:50;
+  }

@@ -4,10 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <script src="script.js"></script>
   <title>oneDayChallenge</title>
 </head>
 <body>
+  <header>
+    <img src="Image/foodtasting.jpg" width="100%" /> 
+    <i id="previous" class="fa fa-angle-double-left" style="font-size:36px"></i>
+    <i id="next" class="fa fa-angle-double-right" style="font-size:36px"></i>
+
+  </header>
   <main>
     <nav class="tab">
         <button id="knopEen">Summary</button>
@@ -29,17 +37,18 @@
           Antwerp  Local gastro-scene  Haute cuisine
           Serving
           Food made by local restaurants, Michelin-starred chefs, and renowned caterers
-          Duration
-          4 days
-          Frequency
-          Annual
-          Since
-          2007</p>
+          </p>
       </section>
       
       <section id="Two" class="tabContent">
         <h3>Practical Info</h3>
-        <p>Directions etc</p>
+        <ul>
+          <li>Venue: Waagnatie Expo/Events.</li>
+          <li>Address: Rijnkaai 150, 2000 Antwerp, Belgium</li>
+        </ul>
+        
+        <p>International food festival, Haute cuisine, Artisan food fair, Trade fair Dedicated to Antwerp Local gastro-scene. Haute cuisine Serving Food made by local restaurants, Michelin-starred chefs, and renowned caterers</p>
+            
       </section>
       
       <section id="Three" class="tabContent">
@@ -66,5 +75,13 @@
         </div>
     </section>
   </main>
+  <footer><b>
+    <p>Antwerps Biggest Food festival</p>
+    <p>Duration: 4 days</p>
+    <p>Frequency: Annual</p>
+    <p>Since 2007</p>
+    <p>Expected Visitors: 2000</p>
+    <p id="counter"></p>
+  </footer></b>
 </body>
 </html>

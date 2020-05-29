@@ -4,7 +4,7 @@
       width: 90%;
       border: 1px solid grey;
       padding: 25px;
-    display:none;
+      display:none;
   }
 
   
@@ -82,4 +82,10 @@ input[type=text], select, textarea {
 
   header{
     z-index:50;
+  }
+
+  footer{
+    background-color: #ccc;
+    text-align: center;
+    border: 1px solid lightblue;
   }

@@ -10,11 +10,14 @@
         color: #666;
         background-color: lightgray;
     }
-    button{border:none;}
 
-    div{display: none;}
 
-div#One{display: block;}
+
+
+    section{display: none;}
+
+section#One{display: block;}
+
 </style>
 
 </head>
@@ -28,7 +31,7 @@ document.getElementById("knopTwee").addEventListener("click", buttonTwo);
 document.getElementById("knopDrie").addEventListener("click", buttonThree);
 
 function buttonOne(){
-    // to hide/show the buttons
+    // to hide/show the pages
     document.getElementById("One").style.display="block";
     document.getElementById("Two").style.display="none";
     document.getElementById("Three").style.display = "none";
@@ -38,7 +41,7 @@ function buttonOne(){
     document.getElementById("knopDrie").className="inactive";
 }
 function buttonTwo(){
-    // to hide/show the buttons
+    // to hide/show the pages
     document.getElementById("Two").style.display="block";
     document.getElementById("One").style.display="none";
     document.getElementById("Three").style.display="none";
@@ -48,7 +51,7 @@ function buttonTwo(){
     document.getElementById("knopDrie").className="inactive";
 }
 function buttonThree() {
-    // to hide/show the buttons
+    // to hide/show thepages
     document.getElementById("Three").style.display = "block";
     document.getElementById("Two").style.display = "none";
     document.getElementById("One").style.display = "none";
@@ -59,19 +62,19 @@ function buttonThree() {
 }
     </script>
 </div>
-<div id="One" class="tabContent">
+<section id="One" class="tabContent">
     <h3>Summary</h3>
     <p>Food festival</p>
-</div>
+</section>
 
-<div id="Two" class="tabContent">
+<section id="Two" class="tabContent">
     <h3>Practical Info</h3>
     <p>Directions etc</p>
-</div>
+</section>
 
-<div id="Three" class="tabContent">
+<section id="Three" class="tabContent">
     <h3>Contact Form</h3>
     <p>Contact us here.</p>
-</div>
+</section>
 </body>
 </html>

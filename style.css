@@ -61,6 +61,6 @@ input[type=text], select, textarea {
     background-color: lightgray;
   }
 
-  tab{display: none;}
+  section{display: none;}
 
-  secton#One{display: block;}
+  section#One{display: block;}

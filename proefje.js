@@ -1,11 +1,10 @@
-/*document.getElementById("One").addEventListener("load", startCounter );
-
 let x=0;
 function startCounter(){
-    alert("de functie werkt!");
+
     x=x+1;
+    document.getElementById("counter").innerHTML=x;
 }
-document.getElementById("counter").innerHTML=x;*/
+
 /* --------------------------------the tabsection --------------------------------------------------- */
 document.getElementById("knopEen").addEventListener("click", buttonOne);
 document.getElementById("knopTwee").addEventListener("click", buttonTwo);

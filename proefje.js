@@ -1,11 +1,10 @@
-/*document.getElementById("One").addEventListener("load", startCounter );
-
 let x=0;
 function startCounter(){
-    alert("de functie werkt!");
+
     x=x+1;
+    document.getElementById("counter").innerHTML=x;
 }
-document.getElementById("counter").innerHTML=x;*/
+
 /* --------------------------------the tabsection --------------------------------------------------- */
 document.getElementById("knopEen").addEventListener("click", buttonOne);
 document.getElementById("knopTwee").addEventListener("click", buttonTwo);
@@ -47,15 +46,16 @@ document.getElementById("submit").addEventListener("click", function(e) {
 
     let inputs = document.getElementsByTagName("input");
     for (let i = 0; i < inputs.length; i++) {
+        let a=inputs[i];
+        console.log(a.innerHTML);
 
-        console.log(inputs[i].innerHTML);
-
-        if (inputs.value = "") {
+        /*if (inputs.value = "") {
             alert("you have to put something in the input field of the form before submitting!")
             // break;
         } else {
-
-        }
+            let form=document.getElementById("contact");
+            form.submit();
+        }*/
     }
 });
 

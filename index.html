@@ -9,7 +9,7 @@
 
   <title>oneDayChallenge</title>
 </head>
-<body>
+<body onload="startCounter()">
   <header>
     <img class="imageSlide" src="Image/foodtasting.jpg" width="100%" /> 
     <i id="previous" class="fa fa-angle-double-left" style="font-size:36px"></i>
@@ -55,7 +55,7 @@
         <h3>Contact Form</h3>
         <p>Contact us here.</p>
         <div class="container">
-          <form action="contactPage">
+          <form action="contactPage" id="contact>
         
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your first name..">

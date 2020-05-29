@@ -5,11 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="script.js"></script>
+  <script>
+    let x=0;
+    function startCounter(){
+      let timing=setTimeout(Func, 500);
 
+      function Func() {
+       x=x+1;
+      document.getElementById("counter").innerHTML=x;
+      }
+    }
+    startCounter();
+  </script>
   <title>oneDayChallenge</title>
 </head>
-<body onload="startCounter()">
+<body>
   <header>
     <img class="imageSlide" src="Image/foodtasting.jpg" width="100%" /> 
     <i id="previous" class="fa fa-angle-double-left" style="font-size:36px"></i>
@@ -55,7 +65,7 @@
         <h3>Contact Form</h3>
         <p>Contact us here.</p>
         <div class="container">
-          <form action="contactPage" id="contact>
+          <form action="contactPage" id="contact">
         
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your first name..">

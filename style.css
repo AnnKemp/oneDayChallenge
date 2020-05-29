@@ -55,11 +55,13 @@ input[type=text], select, textarea {
   .active{
     color:white;
     background-color: cadetblue;
+    border: none;
   }
 
   .inactive{
     color: #666;
     background-color: lightgray;
+    border: none;
   }
 
   section{display: none;}

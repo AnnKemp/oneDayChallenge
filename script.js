@@ -1,28 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-    .active{
-        color:white;
-        background-color: cadetblue;
-    }
-    .inactive{
-        color: #666;
-        background-color: lightgray;
-    }
-    button{border:none;}
-
-    div{display: none;}
-
-div#One{display: block;}
-</style>
-
-</head>
-<body>
-<button id="knopEen">Summary</button>
-<button id="knopTwee">Practical Info</button>
-<button id="knopDrie">Contact</button>
-<script>
 document.getElementById("knopEen").addEventListener("click", buttonOne);
 document.getElementById("knopTwee").addEventListener("click", buttonTwo);
 document.getElementById("knopDrie").addEventListener("click", buttonThree);
@@ -57,21 +32,3 @@ function buttonThree() {
     document.getElementById("knopEen").className = "inactive";
     document.getElementById("knopTwee").className = "inactive";
 }
-    </script>
-</div>
-<div id="One" class="tabContent">
-    <h3>Summary</h3>
-    <p>Food festival</p>
-</div>
-
-<div id="Two" class="tabContent">
-    <h3>Practical Info</h3>
-    <p>Directions etc</p>
-</div>
-
-<div id="Three" class="tabContent">
-    <h3>Contact Form</h3>
-    <p>Contact us here.</p>
-</div>
-</body>
-</html>

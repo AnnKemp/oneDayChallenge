@@ -85,7 +85,19 @@ input[type=text], select, textarea {
   }
 
   footer{
-    background-color: #ccc;
+    background-color: lightblue;
     text-align: center;
-    border: 1px solid lightblue;
+    border: 2px solid #ccc;
+    border-radius: 0px 0px 10px 10px;
+ 
   }
+
+  h3{
+    color: lightblue;
+    font-size: 30px;
+    
+  }
+
+  .imageSlide{
+    border-radius: 10px 10px 0px 0px;
+   }

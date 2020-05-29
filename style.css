@@ -1,5 +1,6 @@
 .tabContent{
-      height: 500px;
+      min-height: 500px;
+      max-height: 100%;
       width: 90%;
       border: 1px solid grey;
       padding: 25px;

@@ -85,7 +85,7 @@ input[type=text], select, textarea {
   }
 
   footer{
-    background-color: lightblue;
+    background-color: #ccc;
     text-align: center;
     border: 2px solid #ccc;
     border-radius: 0px 0px 10px 10px;
@@ -93,7 +93,6 @@ input[type=text], select, textarea {
   }
 
   h3{
-    color: lightblue;
     font-size: 30px;
     
   }
